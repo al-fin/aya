@@ -47,11 +47,11 @@ const tanyaBahasa = () => {
 	rl.question(`${waktu} ${bot} `+colors.blue(`Hai ${namaku}, Kamu mau aku pakai bahasa apa ?`)+colors.cyan(`\n1. Bahasa Indonesia\n2. Bahasa Jawa\n`)+`${waktu} `+colors.bold.bgBlack.blue(` ${namaku} ❯ `)+' ',(lang) => {
 		if (parseInt(lang)===1) {
 			language = 'id';
-			console.log(`${waktu} ${bot} `+colors.blue(`Selamat datang kak !`))
+			console.log(`${waktu} ${bot} `+colors.blue(`Oke kak !`))
 			chat()
 		} else if (parseInt(lang)===2) {
 			language = 'jv';
-			console.log(`${waktu} ${bot} `+colors.blue(`Sugeng rawuh !!`))
+			console.log(`${waktu} ${bot} `+colors.blue(`Oke mas !!`))
 			chat()
 		} else {
 			console.log('Aku ga ngerti yang kamu katakan :(')
