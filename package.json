@@ -1,0 +1,15 @@
+{
+  "name": "aya",
+  "version": "1.0.0",
+  "description": "Chat bot app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alfin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "colors": "^1.3.3"
+  }
+}
